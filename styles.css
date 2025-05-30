@@ -144,3 +144,13 @@ header {
 .div-assine:hover {
   scale: 1.04;
 }
+
+.nav-active {
+  display: inline-block;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.767);
+  padding-bottom: 2px;
+}
+
+.nav-active a {
+  color: rgb(236, 159, 159);
+}
