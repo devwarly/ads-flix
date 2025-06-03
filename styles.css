@@ -255,6 +255,10 @@ header {
   transition: 0.4s;
 }
 
+.div_fav p {
+  font-size: 20px
+}
+
 .div_fav:hover {
   scale: 1.02;
 }
