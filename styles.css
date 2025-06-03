@@ -195,7 +195,10 @@ header {
 }
 
 .opcoes-trailer {
-  margin-top: 20px;
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .play-trailer {
@@ -236,4 +239,32 @@ header {
 .top-trailer img {
   width: 200px;
   margin-left: -15px;
+}
+
+.div_fav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(51, 255, 0, 0.767);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.div_fav:hover {
+  scale: 1.02;
+}
+
+#favorito {
+  cursor: pointer;
+  font-size: 30px;
+  transition: 0.2s ease-in;
+}
+
+#favorito:hover {
+  scale: 1.03;
 }
